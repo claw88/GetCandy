@@ -1,5 +1,6 @@
 Build/
 droidBuild/
+screenshot/
 
 # This .gitignore file should be placed at the root of your Unity project directory
 #
@@ -60,6 +61,7 @@ sysinfo.txt
 
 # Builds
 *.apk
+*.aab
 *.unitypackage
 
 # Crashlytics generated file
