@@ -1,5 +1,5 @@
-# EggCatchGame
+# GetCandy
 Unityを利用したスマホゲームアプリ開発の練習。
 
 ## Screenshot
-![EggCatchGame](https://github.com/claw88/EggCatchGame/blob/screenshot/screenshot.jpg)
+![GetCandy](https://github.com/claw88/GetCandy/blob/screenshot/Screenshot_20200603-012423.jpg)
