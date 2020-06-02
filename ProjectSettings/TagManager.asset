@@ -4,8 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Egg
   - Bomb
+  - Candy
   layers:
   - Default
   - TransparentFX

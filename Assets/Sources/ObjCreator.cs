@@ -25,10 +25,18 @@ public class ObjCreator : MonoBehaviour
         if (time >= interval && !ClearUi.activeInHierarchy)
         {
             var rnd = Random.value;
-            var id = rnd < 2f / 3 ? 0 : 1;
-            GameObject fallingObj =
-                Instantiate(items[id]) as GameObject;
-            fallingObj.transform.position = new Vector2(Random.Range(-xPos[id], xPos[id]), yPos[id]);
+            if (rnd < 2f / 3)
+            {
+                int id = Random.Range(0, 5);
+                GameObject fallingObj = Instantiate(items[id]);
+                fallingObj.transform.position = new Vector2(Random.Range(-xPos[0], xPos[0]), yPos[0]);
+            }
+            else
+            {
+                GameObject fallingObj = Instantiate(items[4]);
+                fallingObj.transform.position = new Vector2(Random.Range(-xPos[1], xPos[1]), yPos[1]);
+            }
+
             time = 0;
         }
     }

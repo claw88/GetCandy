@@ -17,6 +17,6 @@ public class Score : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scoreText.text = $"Score:{score}";
+        scoreText.text = $"Point {score}";
     }
 }

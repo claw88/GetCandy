@@ -1,6 +1,9 @@
-Build/
 droidBuild/
-screenshot/
+screenshots/
+icons/
+Assets/Prefabs_before/
+Assets/Sprites_before/
+Assets/Sprites/
 
 # This .gitignore file should be placed at the root of your Unity project directory
 #
