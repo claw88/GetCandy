@@ -1,9 +1,12 @@
 droidBuild/
 screenshots/
 icons/
+
+Assets/Sprites
 Assets/Prefabs_before/
+Assets/Prefabs_before.meta
 Assets/Sprites_before/
-Assets/Sprites/
+Assets/Sprites_before.meta
 
 # This .gitignore file should be placed at the root of your Unity project directory
 #
@@ -22,7 +25,7 @@ Assets/Sprites/
 /[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
-!/[Aa]ssets/**/*.meta
+#!/[Aa]ssets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
