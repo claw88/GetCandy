@@ -32,13 +32,10 @@ public class PlayerController : MonoBehaviour
             }
             rigid.velocity = transform.right * dir * speed;
         }
-        else if (Application.platform == RuntimePlatform.WindowsPlayer ||
-            Application.platform == RuntimePlatform.WindowsEditor)
+        else
         {
-            rigid.velocity = transform.right * Input.GetAxisRaw("Horizontal") * speed;
+            rigid.velocity = transform.right * 0;
         }
-        
-
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
