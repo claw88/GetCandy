@@ -8,8 +8,9 @@ public class ExitGameButton : MonoBehaviour
     {
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
-#elif UNITY_STANDALONE
-      UnityEngine.Application.Quit();
+#elif UNITY_ANDROID
+        Application.runInBackground = false;
+        Application.Quit();
 #endif
     }
 }

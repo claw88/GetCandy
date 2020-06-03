@@ -21,6 +21,15 @@ public class GameEngine : MonoBehaviour
         {
             clearUi.SetActive(true);
         }
+#if UNITY_ANDROID
+        // Backキー押下
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            // アプリ終了
+            Application.Quit();
+            return;
+        }
+#endif
     }
 
     public void ReloadGame()
